@@ -1885,35 +1885,35 @@ color:#666;
 	height: 474px;
 }
 .meizhuangx  .main-body li.fore1{
-	height: 297px;
+	height: 296px;
+	width: 219px;
 	float: left;
-	border-right: 1px solid #EDEDED;
+    border-right: 1px solid #EDEDED;
     border-bottom: 1px solid #EDEDED;
 	/*width: 220px;*/
 }
-.margin-bottom .main-body li a{
-	border-right: 1px solid #EDEDED;
-    border-bottom: 1px solid #EDEDED;
-}
 .meizhuangx  .main-body li.fore2{
-    height: 297px;
+    height: 296px;
+    width: 219px;
 	float: left;
-	border-right: 1px solid #EDEDED;
-    border-bottom: 1px solid #EDEDED;
+ 	border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED; 
 }
 .meizhuangx .main-body li.fore3 {
 	height: 176px;
 	float: left;
 	width: 219px;
     border-right: 1px solid #EDEDED;
-    border-bottom: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED; 
 }
 
 .meizhuangx .main-body li.fore4 {
 	height: 176px;
+	width: 219px;
 	float: left;
 	width: 219px;
-    border-bottom: 1px solid #EDEDED; 
+    border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
 }
 .meizhuangx .main-extra{
 	width: 220px;
@@ -1921,21 +1921,1073 @@ color:#666;
     float: right;
 }
  .meizhuangx .main-extra li.fore1{
-    width: 220px;
-    height: 297px;
+    width: 219px;
+    height: 296px;
 	float: left;
     border-right: 1px solid #EDEDED;
     border-bottom: 1px solid #EDEDED;
  }
  .meizhuangx .main-extra li.fore2{
-    width: 220px;
-    height: 177px;
+    width: 219px;
+    height: 176px;
     float: left;
     border-right: 1px solid #EDEDED;
     border-bottom: 1px solid #EDEDED;
  }
 /*2 meizhuang end*/
 
+
+
+
+/*3 shouji start*/
+.shouji{
+	width: 1210px;
+	height: 511px;
+/*	background: green;*/
+	margin: 0 auto;
+	overflow: hidden;	
+}
+.shoujis{
+    width: 1210px;
+	height: 36px;
+	border-bottom: 1px solid #c81623;
+	overflow:visible;
+	position: relative;
+}
+
+.shoujis-left{
+	width: 200px;
+	height: 37px;
+	float: left;
+	font-size:20px;
+	line-height: 37px; 
+	/*background-color: green;*/
+	position: relative;
+}
+.shoujis-left1{
+	padding-left:8px;
+	margin-top: 5px;
+	width: 31px;
+	height: 25px;
+    line-height:34px;
+    font-size:12px ;
+	background-image: url(../image/loucenghe.png);
+    background-position:665px 3px;
+    color:#fff;
+}
+.shoujis-left2{
+   float:right;
+   position: absolute;
+   top:0;
+   left:65px;
+   font-size: 20px;
+} 
+ 
+.shoujis-right{
+	width: 634px;
+	height: 32px;
+	border: solid 1px #ededed;
+    border-bottom: 0 none;
+    line-height: 32px;
+    z-index: 1;
+    margin-top:1px;
+    float:right;
+}
+.shoujis-right1{
+	width: 58px;
+	height: 32px;
+/*	background-color: red;*/
+	float: left;
+	line-height: 32px;
+	text-align: center;
+	position: relative;
+}
+.shoujis-right3{
+	width: 58px;
+	height: 32px;
+	float: left;
+	line-height: 32px;
+	text-align: center;
+	border-left: solid 1px #c81623;
+    border-right: solid 1px #c81623;
+    border-top: solid 3px #c81623;
+	position: relative;
+}
+.shoujis-right1 span{
+   position: absolute;
+   left: 55px;
+}
+.shoujis-right2{
+	width: 82px;
+	height: 32px;
+	float: left;
+	line-height: 32px;
+	text-align: center;
+	position: relative;
+}
+.shoujis-right2 span{
+   position: absolute;
+   left: 81px;
+}
+
+
+
+.shoujix {
+	width: 1210px;
+	height: 474px;
+	overflow: hidden;
+}
+.shoujix .side{
+	width: 330px;
+	height: 474px;
+    float: left;
+    overflow: hidden;
+} 
+.shoujix .side .side-inner{
+	position: relative;
+    width: 330px;
+    background: #e5ebeb;
+    overflow: hidden;
+}
+.shoujix .side .side-inner .banner{
+	position: relative;
+	height: 474px;
+}
+.shoujix .side .side-inner .themes{
+	position: relative;
+	padding-left: 25px;
+	width: 305px;
+	height: 46px;
+	margin-top:-237px;
+	overflow: hidden;
+	background: rgba(255,255,255,.5);
+}
+.shoujix .side .side-inner .themes li{
+    float: left;
+	width:98px;
+	height: 26px;
+	padding:10px 0;
+/*	background: red;*/
+}
+.shoujix .side .side-inner .themes .fore1 .icon1{
+     float: left;
+     height: 26px;
+     overflow: hidden;
+     line-height: 26px;
+     width: 26px;
+     margin-right: 5px;
+     background-image: url(../image/13.10.png);
+     background-position:0px 0px;
+}
+ .shoujix .side .side-inner .themes .fore1  span{
+ 	font-size: 14px;
+    margin-right: 5px;
+    float: left;
+    height: 26px;
+    overflow: hidden;
+    line-height: 26px;
+ }
+ .shoujix .side .side-inner .themes .fore1 .icon1{
+     float: left;
+     height: 26px;
+     overflow: hidden;
+     line-height: 26px;
+     width: 26px;
+     margin-right: 5px;
+     background-image: url(../image/13.10.png);
+     background-position:0px 0px;
+}
+ .shoujix .side .side-inner .themes .fore1  span{
+ 	font-size: 14px;
+    margin-right: 5px;
+    float: left;
+    height: 26px;
+    overflow: hidden;
+    line-height: 26px;
+ }
+ .shoujix .side .side-inner .themes .fore1 .icon1{
+     float: left;
+     height: 26px;
+     overflow: hidden;
+     line-height: 26px;
+     width: 26px;
+     margin-right: 5px;
+     background-image: url(../image/13.10.png);
+     background-position:0px 0px;
+}
+ .shoujix .side .side-inner .themes .fore1  span{
+ 	font-size: 14px;
+    margin-right: 5px;
+    float: left;
+    height: 26px;
+    overflow: hidden;
+    line-height: 26px;
+ }
+ .shoujix .side .side-inner .themes .fore2 .icon1{
+     float: left;
+     height: 26px;
+     overflow: hidden;
+     line-height: 26px;
+     width: 26px;
+     margin-right: 5px;
+     background-image: url(../image/13.10.png);
+     background-position:0px 52px;
+}
+ .shoujix .side .side-inner .themes .fore2  span{
+ 	font-size: 14px;
+    margin-right: 5px;
+    float: left;
+    height: 26px;
+    overflow: hidden;
+    line-height: 26px;
+ }
+ .shoujix .side .side-inner .themes .fore3 .icon1{
+     float: left;
+     height: 26px;
+     overflow: hidden;
+     line-height: 26px;
+     width: 26px;
+     margin-right: 5px;
+     background-image: url(../image/13.10.png);
+     background-position:0px 104px;
+}
+ .shoujix .side .side-inner .themes .fore3 span{
+ 	font-size: 14px;
+    margin-right: 5px;
+    float: left;
+    height: 26px;
+    overflow: hidden;
+    line-height: 26px;
+ }
+
+
+
+.shoujix .side .side-inner .assists{
+	position: relative;
+    /*height: 48px;*/
+    width:330px;
+    padding: 21px 0 0;
+    line-height: 24px;
+    overflow: hidden;
+    /*background: red;*/
+    background: rgba(255,255,255,.7);
+   top:-191px; 
+}
+.shoujix .side .side-inner .assists li{
+	float: left;
+	width: 135px;
+	height: 24px;
+	padding-left: 25px;
+	overflow: hidden;
+}
+.shoujix .side .side-inner .assists li a{
+	font-size: 14px;
+} 
+.assists li a:hover{
+	color: #C81623;
+}
+.shoujix .side .side-inner .words{
+	position: relative;
+	height: 122px;
+	width: 330px;
+	background: rgba(255,255,255,.7);
+	top:-536px;
+}
+.shoujix .side .side-inner .words li{
+	width: 135px;
+	padding-top:16px;
+    float: left;
+    height: 96px;
+    padding: 16px 0 0 25px;
+    overflow: hidden;
+/*    background: red;*/
+}
+
+
+
+
+
+
+.shoujix .main{
+	width: 880px;
+	height: 474px;
+	position: relative;
+	overflow: hidden;
+	 
+}
+.shoujix .main .slider{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 439px;
+    height: 236px;
+    overflow: hidden;
+    border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+ /*   background: #ccc;*/
+}
+.shoujix  .main-inner .main-body{
+    float: left;
+    width: 660px;
+    height: 474px;
+/*    background: red;*/
+}
+
+.shoujix  .main-inner .main-body .fore1{
+	width: 220px;
+	height: 118px;
+	padding-left: 440px;
+	float: left;
+	overflow: hidden;
+	    
+}
+.shoujix  .main-inner .main-body .fore1 a{
+  width: 219px;
+  height: 117px;
+  float: left;
+  border-right: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED;
+}
+.shoujix  .main-inner .main-body .fore2{
+	width: 220px;
+	height: 118px;
+	padding-left: 440px;
+	float: left;
+	overflow: hidden;
+	    
+}
+.shoujix  .main-inner .main-body .fore2 a{
+  width: 219px;
+  height: 117px;
+  float: left;
+  border-right: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED;
+}
+.shoujix  .main-inner .main-body .fore3{
+	width: 219px;
+	height: 236px;
+	float: left;
+	overflow: hidden;
+	   border-right: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED; 
+}
+.shoujix  .main-inner .main-body .fore4{
+	width: 219px;
+	height: 236px;
+	float: left;
+	overflow: hidden;
+	   border-right: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED; 
+}
+.shoujix  .main-inner .main-body .fore5{
+	width: 219px;
+	height: 236px;
+	float: left;
+	overflow: hidden;
+	   border-right: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED; 
+}
+
+
+
+
+
+.shoujix  .main-inner .main-extra{
+	float: left;
+    width: 220px;
+    /*background: red;*/
+    height: 474px;
+}
+.shoujix  .main-inner .main-extra .fore1{
+     width: 219px;
+     height: 117px;
+     overflow: hidden;    
+     border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+}
+.shoujix  .main-inner .main-extra .fore2{
+     width: 219px;
+     height: 117px;
+     overflow: hidden;    
+     border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+}
+.shoujix  .main-inner .main-extra .fore3{
+     width: 219px;
+     height: 236px;
+     overflow: hidden;    
+     border-right: 1px solid #EDEDED;
+     border-bottom: 1px solid #EDEDED;
+}
+
+/*3 shouji end*/
+
+
+
+
+
+
+/*4 jiayongdianqi start*/
+.jiayongdianqi{
+	width: 1210px;
+	height: 511px;
+/*	background: green;*/
+	margin: 0 auto;
+	overflow: hidden;	
+}
+.jiayongdianqis{
+    width: 1210px;
+	height: 36px;
+	border-bottom: 1px solid #c81623;
+	overflow:visible;
+	position: relative;
+}
+
+.jiayongdianqis-left{
+	width: 200px;
+	height: 37px;
+	float: left;
+	font-size:20px;
+	line-height: 37px; 
+	/*background-color: green;*/
+	position: relative;
+}
+.jiayongdianqis-left1{
+	padding-left:8px;
+	margin-top: 5px;
+	width: 31px;
+	height: 25px;
+    line-height:34px;
+    font-size:12px ;
+	background-image: url(../image/loucenghe.png);
+    background-position:665px 3px;
+    color:#fff;
+}
+.jiayongdianqis-left2{
+   float:right;
+   position: absolute;
+   top:0;
+   left:65px;
+   font-size: 20px;
+} 
+ 
+.jiayongdianqis-right{
+	width: 716px;
+	height: 32px;
+	border: solid 1px #ededed;
+    border-bottom: 0 none;
+    line-height: 32px;
+    z-index: 1;
+    margin-top:1px;
+    float:right;
+}
+.jiayongdianqis-right1{
+	width: 58px;
+	height: 32px;
+/*	background-color: red;*/
+	float: left;
+	line-height: 32px;
+	text-align: center;
+	position: relative;
+}
+.jiayongdianqis-right3{
+	width: 58px;
+	height: 32px;
+	float: left;
+	line-height: 32px;
+	text-align: center;
+	border-left: solid 1px #c81623;
+    border-right: solid 1px #c81623;
+    border-top: solid 3px #c81623;
+	position: relative;
+}
+.jiayongdianqis-right1 span{
+   position: absolute;
+   left: 55px;
+}
+.jiayongdianqis-right2{
+	width: 82px;
+	height: 32px;
+	float: left;
+	line-height: 32px;
+	text-align: center;
+	position: relative;
+}
+.jiayongdianqis-right2 span{
+   position: absolute;
+   left: 81px;
+}
+
+
+
+.jiayongdianqix {
+	width: 1210px;
+	height: 474px;
+	overflow: hidden;
+}
+.jiayongdianqix .side{
+	width: 330px;
+	height: 474px;
+    float: left;
+    overflow: hidden;
+} 
+.jiayongdianqix .side .side-inner{
+	position: relative;
+    width: 330px;
+    background: #e5ebeb;
+    overflow: hidden;
+}
+.jiayongdianqix .side .side-inner .banner{
+	position: relative;
+	height: 474px;
+}
+.jiayongdianqix .side .side-inner .themes{
+	position: relative;
+	padding-left: 25px;
+	width: 305px;
+	height: 46px;
+	margin-top:-237px;
+	overflow: hidden;
+	background: rgba(255,255,255,.5);
+}
+.jiayongdianqix .side .side-inner .themes li{
+    float: left;
+	width:145px;
+	height: 26px;
+	padding:10px 0;
+/*	background: red;*/
+}
+.jiayongdianqix .side .side-inner .themes .fore1 .icon1{
+     float: left;
+     height: 26px;
+     overflow: hidden;
+     line-height: 26px;
+     width: 26px;
+     margin-right: 5px;
+     background-image: url(../image/14.10.png);
+     background-position:0px 0px;
+}
+ .jiayongdianqix .side .side-inner .themes .fore1  span{
+ 	font-size: 14px;
+    margin-right: 5px;
+    float: left;
+    height: 26px;
+    overflow: hidden;
+    line-height: 26px;
+ }
+ .jiayongdianqix .side .side-inner .themes .fore2 .icon1{
+     float: left;
+     height: 26px;
+     overflow: hidden;
+     line-height: 26px;
+     width: 26px;
+     margin-right: 5px;
+     background-image: url(../image/14.10.png);
+     background-position:0px -26px;
+
+}
+.jiayongdianqix .side .side-inner .themes .fore2 span{
+ 	font-size: 14px;
+    margin-right: 5px;
+    float: left;
+    height: 26px;
+    overflow: hidden;
+    line-height: 26px;
+ }
+
+
+.jiayongdianqix .side .side-inner .assists{
+	position: relative;
+    /*height: 48px;*/
+    width:330px;
+    padding: 21px 0 0;
+    line-height: 24px;
+    overflow: hidden;
+    /*background: red;*/
+    background: rgba(255,255,255,.7);
+   top:-191px; 
+}
+.jiayongdianqix .side .side-inner .assists li{
+	float: left;
+	width: 135px;
+	height: 24px;
+	padding-left: 25px;
+	overflow: hidden;
+}
+.jiayongdianqix .side .side-inner .assists li a{
+	font-size: 14px;
+} 
+.assists li a:hover{
+	color: #C81623;
+}
+.jiayongdianqix .side .side-inner .words{
+	position: relative;
+	height: 122px;
+	width: 330px;
+	background: rgba(255,255,255,.7);
+	top:-536px;
+}
+.jiayongdianqix .side .side-inner .words li{
+	width: 135px;
+	padding-top:16px;
+    float: left;
+    height: 96px;
+    padding: 16px 0 0 25px;
+    overflow: hidden;
+/*    background: red;*/
+}
+
+
+
+
+
+
+.jiayongdianqix .main{
+	width: 880px;
+	height: 474px;
+	position: relative;
+	overflow: hidden;
+	 
+}
+.jiayongdianqix .main .slider{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 439px;
+    height: 236px;
+    overflow: hidden;
+    border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+ /*   background: #ccc;*/
+}
+.jiayongdianqix  .main-inner .main-body{
+    float: left;
+    width: 660px;
+    height: 474px;
+/*    background: red;*/
+}
+
+.jiayongdianqix  .main-inner .main-body .fore1{
+	width: 220px;
+	height: 118px;
+	padding-left: 440px;
+	float: left;
+	overflow: hidden;
+	    
+}
+.jiayongdianqix  .main-inner .main-body .fore1 a{
+  width: 219px;
+  height: 117px;
+  float: left;
+  border-right: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED;
+}
+.jiayongdianqix  .main-inner .main-body .fore2{
+	width: 220px;
+	height: 118px;
+	padding-left: 440px;
+	float: left;
+	overflow: hidden;
+	    
+}
+.jiayongdianqix  .main-inner .main-body .fore2 a{
+  width: 219px;
+  height: 117px;
+  float: left;
+  border-right: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED;
+}
+.jiayongdianqix  .main-inner .main-body .fore3{
+	width: 219px;
+	height: 236px;
+	float: left;
+	overflow: hidden;
+	   border-right: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED; 
+}
+.jiayongdianqix  .main-inner .main-body .fore4{
+	width: 219px;
+	height: 236px;
+	float: left;
+	overflow: hidden;
+	   border-right: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED; 
+}
+.jiayongdianqix  .main-inner .main-body .fore5{
+	width: 219px;
+	height: 236px;
+	float: left;
+	overflow: hidden;
+	   border-right: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED; 
+}
+
+
+
+
+
+.jiayongdianqix  .main-inner .main-extra{
+	float: left;
+    width: 220px;
+    /*background: red;*/
+    height: 474px;
+}
+.jiayongdianqix  .main-inner .main-extra .fore1{
+     width: 219px;
+     height: 117px;
+     overflow: hidden;    
+     border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+}
+.jiayongdianqix  .main-inner .main-extra .fore2{
+     width: 219px;
+     height: 117px;
+     overflow: hidden;    
+     border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+}
+.jiayongdianqix  .main-inner .main-extra .fore3{
+     width: 219px;
+     height: 236px;
+     overflow: hidden;    
+     border-right: 1px solid #EDEDED;
+     border-bottom: 1px solid #EDEDED;
+}
+/*4 jiayongdianqi end*/
+
+
+
+
+
+
+
+/*5 shuma start*/
+.shuma{
+	width: 1210px;
+	height: 511px;
+/*	background: green;*/
+	margin: 0 auto;
+	overflow: hidden;	
+}
+.shumas{
+    width: 1210px;
+	height: 36px;
+	border-bottom: 1px solid #c81623;
+	overflow:visible;
+	position: relative;
+}
+
+.shumas-left{
+	width: 200px;
+	height: 37px;
+	float: left;
+	font-size:20px;
+	line-height: 37px; 
+	/*background-color: green;*/
+	position: relative;
+}
+.shumas-left1{
+	padding-left:8px;
+	margin-top: 5px;
+	width: 31px;
+	height: 25px;
+    line-height:34px;
+    font-size:12px ;
+	background-image: url(../image/loucenghe.png);
+    background-position:665px 3px;
+    color:#fff;
+}
+.shumas-left2{
+   float:right;
+   position: absolute;
+   top:0;
+   left:65px;
+   font-size: 20px;
+} 
+ 
+.shumas-right{
+	width: 716px;
+	height: 32px;
+	border: solid 1px #ededed;
+    border-bottom: 0 none;
+    line-height: 32px;
+    z-index: 1;
+    margin-top:1px;
+    float:right;
+}
+.shumas-right1{
+	width: 58px;
+	height: 32px;
+/*	background-color: red;*/
+	float: left;
+	line-height: 32px;
+	text-align: center;
+	position: relative;
+}
+.shumas-right3{
+	width: 58px;
+	height: 32px;
+	float: left;
+	line-height: 32px;
+	text-align: center;
+	border-left: solid 1px #c81623;
+    border-right: solid 1px #c81623;
+    border-top: solid 3px #c81623;
+	position: relative;
+}
+.shumas-right1 span{
+   position: absolute;
+   left: 55px;
+}
+.shumas-right2{
+	width: 82px;
+	height: 32px;
+	float: left;
+	line-height: 32px;
+	text-align: center;
+	position: relative;
+}
+.shumas-right2 span{
+   position: absolute;
+   left: 81px;
+}
+
+
+
+.shumax {
+	width: 1210px;
+	height: 474px;
+	overflow: hidden;
+}
+.shumax .side{
+	width: 330px;
+	height: 474px;
+    float: left;
+    overflow: hidden;
+} 
+.shumax .side .side-inner{
+	position: relative;
+    width: 330px;
+    background: #e5ebeb;
+    overflow: hidden;
+}
+.shumax .side .side-inner .banner{
+	position: relative;
+	height: 474px;
+}
+.shumax .side .side-inner .themes{
+	position: relative;
+	padding-left: 25px;
+	width: 305px;
+	height: 46px;
+	margin-top:-237px;
+	overflow: hidden;
+	background: rgba(255,255,255,.5);
+}
+.shumax .side .side-inner .themes li{
+    float: left;
+	width:145px;
+	height: 26px;
+	padding:10px 0;
+/*	background: red;*/
+}
+.shumax .side .side-inner .themes .fore1 .icon1{
+     float: left;
+     height: 26px;
+     overflow: hidden;
+     line-height: 26px;
+     width: 26px;
+     margin-right: 5px;
+     background-image: url(../image/15.10.png);
+     background-position:0px 0px;
+}
+ .shumax .side .side-inner .themes .fore1  span{
+ 	font-size: 14px;
+    margin-right: 5px;
+    float: left;
+    height: 26px;
+    overflow: hidden;
+    line-height: 26px;
+ }
+ .shumax .side .side-inner .themes .fore2 .icon1{
+     float: left;
+     height: 26px;
+     overflow: hidden;
+     line-height: 26px;
+     width: 26px;
+     margin-right: 5px;
+     background-image: url(../image/15.10.png);
+     background-position:0px -26px;
+
+}
+.shumax .side .side-inner .themes .fore2 span{
+ 	font-size: 14px;
+    margin-right: 5px;
+    float: left;
+    height: 26px;
+    overflow: hidden;
+    line-height: 26px;
+ }
+
+
+.shumax .side .side-inner .assists{
+	position: relative;
+    /*height: 48px;*/
+    width:330px;
+    padding: 21px 0 0;
+    line-height: 24px;
+    overflow: hidden;
+    /*background: red;*/
+    background: rgba(255,255,255,.7);
+   top:-191px; 
+}
+.shumax .side .side-inner .assists li{
+	float: left;
+	width: 135px;
+	height: 24px;
+	padding-left: 25px;
+	overflow: hidden;
+}
+.shumax .side .side-inner .assists li a{
+	font-size: 14px;
+} 
+.assists li a:hover{
+	color: #C81623;
+}
+.shumax .side .side-inner .words{
+	position: relative;
+	height: 122px;
+	width: 330px;
+	background: rgba(255,255,255,.7);
+	top:-536px;
+}
+.shumax .side .side-inner .words li{
+	width: 135px;
+	padding-top:16px;
+    float: left;
+    height: 96px;
+    padding: 16px 0 0 25px;
+    overflow: hidden;
+/*    background: red;*/
+}
+
+
+
+
+
+
+.shumax .main{
+	width: 880px;
+	height: 474px;
+	position: relative;
+	overflow: hidden;
+	 
+}
+.shumax .main .slider{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 439px;
+    height: 236px;
+    overflow: hidden;
+    border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+ /*   background: #ccc;*/
+}
+.shumax  .main-inner .main-body{
+    float: left;
+    width: 660px;
+    height: 474px;
+/*    background: red;*/
+}
+
+.shumax  .main-inner .main-body .fore1{
+	width: 220px;
+	height: 118px;
+	padding-left: 440px;
+	float: left;
+	overflow: hidden;
+	    
+}
+.shumax  .main-inner .main-body .fore1 a{
+  width: 219px;
+  height: 117px;
+  float: left;
+  border-right: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED;
+}
+.shumax  .main-inner .main-body .fore2{
+	width: 220px;
+	height: 118px;
+	padding-left: 440px;
+	float: left;
+	overflow: hidden;
+	    
+}
+.shumax  .main-inner .main-body .fore2 a{
+  width: 219px;
+  height: 117px;
+  float: left;
+  border-right: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED;
+}
+.shumax  .main-inner .main-body .fore3{
+	width: 219px;
+	height: 236px;
+	float: left;
+	overflow: hidden;
+	   border-right: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED; 
+}
+.shumax  .main-inner .main-body .fore4{
+	width: 219px;
+	height: 236px;
+	float: left;
+	overflow: hidden;
+	   border-right: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED; 
+}
+.shumax  .main-inner .main-body .fore5{
+	width: 219px;
+	height: 236px;
+	float: left;
+	overflow: hidden;
+	   border-right: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED; 
+}
+
+
+
+
+
+.shumax  .main-inner .main-extra{
+	float: left;
+    width: 220px;
+    /*background: red;*/
+    height: 474px;
+}
+.shumax  .main-inner .main-extra .fore1{
+     width: 219px;
+     height: 117px;
+     overflow: hidden;    
+     border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+}
+.shumax  .main-inner .main-extra .fore2{
+     width: 219px;
+     height: 117px;
+     overflow: hidden;    
+     border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+}
+.shumaix  .main-inner .main-extra .fore3{
+     width: 219px;
+     height: 236px;
+     overflow: hidden;    
+     border-right: 1px solid #EDEDED;
+     border-bottom: 1px solid #EDEDED;
+}
+/*5 shuma end*/
 
 
 
