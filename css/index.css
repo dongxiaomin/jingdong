@@ -731,7 +731,7 @@ color:#666;
 
     float: left;
 }
-.p-img{
+.cnxh-x .fore1.p-img{
 	width: 201px;
 	height: 130px;
 	margin-bottom: 10px;
@@ -739,7 +739,7 @@ color:#666;
 /*	background-color: blue;	*/
     text-align: center;
 }
-.p-info{
+.cnxh-x .fore1 .p-info{
 	width: 128px;
 	height: 61px;
 	padding-left: 36px;
@@ -2980,7 +2980,7 @@ color:#666;
      border-right: 1px solid #EDEDED;
     border-bottom: 1px solid #EDEDED;
 }
-.shumaix  .main-inner .main-extra .fore3{
+.shumax  .main-inner .main-extra .fore3 {
      width: 219px;
      height: 236px;
      overflow: hidden;    
@@ -3987,7 +3987,7 @@ color:#666;
 
 
 
-/*8 muying start*/
+/*9 food start*/
 .food{
 	width: 1210px;
 	height: 511px;
@@ -4310,6 +4310,863 @@ color:#666;
 }
 
 /*9 food end*/
+
+
+
+/*10 book start*/
+.book{
+	width: 1210px;
+	height: 511px;
+/*	background: green;*/
+	margin: 0 auto;
+	overflow: hidden;	
+}
+.books{
+    width: 1210px;
+	height: 36px;
+	border-bottom: 1px solid #c81623;
+	overflow:visible;
+	position: relative;
+}
+
+.books-left{
+	width: 200px;
+	height: 37px;
+	float: left;
+	font-size:20px;
+	line-height: 37px; 
+	/*background-color: green;*/
+	position: relative;
+}
+.books-left1{
+	padding-left:8px;
+	margin-top: 5px;
+	width: 31px;
+	height: 25px;
+    line-height:34px;
+    font-size:12px ;
+	background-image: url(../image/loucenghe.png);
+    background-position:668px 3px;
+    color:#fff;
+}
+.books-left2{
+   float:right;
+   position: absolute;
+   top:0;
+   left:65px;
+   font-size: 20px;
+} 
+ 
+.books-right{
+	width: 716px;
+	height: 32px;
+	border: solid 1px #ededed;
+    border-bottom: 0 none;
+    line-height: 32px;
+    z-index: 1;
+    margin-top:1px;
+    float:right;
+}
+.books-right1{
+	width: 58px;
+	height: 32px;
+/*	background-color: red;*/
+	float: left;
+	line-height: 32px;
+	text-align: center;
+	position: relative;
+}
+.books-right3{
+	width: 58px;
+	height: 32px;
+	float: left;
+	line-height: 32px;
+	text-align: center;
+	border-left: solid 1px #c81623;
+    border-right: solid 1px #c81623;
+    border-top: solid 3px #c81623;
+	position: relative;
+}
+.books-right1 span{
+   position: absolute;
+   left: 55px;
+}
+.books-right2{
+	width: 82px;
+	height: 32px;
+	float: left;
+	line-height: 32px;
+	text-align: center;
+	position: relative;
+}
+.books-right2 span{
+   position: absolute;
+   left: 81px;
+}
+
+
+
+.bookx{
+	width: 1210px;
+	height: 474px;
+	overflow: hidden;
+}
+.bookx .side{
+	width: 210px;
+	height: 474px;
+	float:left;
+	overflow:hidden;
+}
+.bookx .side .side-inner{
+	width: 210px;
+	height: 474px;
+	position: relative;
+	border-bottom: #e5ebeb;
+	overflow: hidden;
+}
+.bookx .side .side-inner .banner{
+	position: relative;
+	height: 474px;
+}
+.bookx .side .side-inner .themes{
+	position: relative;
+	padding-left: 10px;
+	width: 200px;
+	height: 92px;
+	margin-top:-237px;
+	overflow: hidden;
+	background: rgba(255,255,255,.5);
+}
+.bookx .side .side-inner .themes li{
+    float: left;
+	width:98px;
+	height: 26px;
+	padding:10px 0;
+/*	background: red;*/
+}
+.bookx .side .side-inner .themes .fore1 .icon1{
+     float: left;
+     height: 26px;
+     overflow: hidden;
+     line-height: 26px;
+     width: 26px;
+     margin-right: 5px;
+     background-image: url(../image/18.8.png);
+     background-position:0px 0px;
+}
+ .bookx .side .side-inner .themes .fore1  span{
+ 	font-size: 14px;
+    margin-right: 5px;
+    float: left;
+    height: 26px;
+    overflow: hidden;
+    line-height: 26px;
+ }
+ .bookx .side .side-inner .themes .fore2 .icon1{
+     float: left;
+     height: 26px;
+     overflow: hidden;
+     line-height: 26px;
+     width: 26px;
+     margin-right: 5px;
+     background-image: url(../image/18.8.png);
+     background-position:0px 286px;
+}
+ .bookx .side .side-inner .themes .fore2 span{
+ 	font-size: 14px;
+    margin-right: 5px;
+    float: left;
+    height: 26px;
+    overflow: hidden;
+    line-height: 26px;
+ }
+ .bookx .side .side-inner .themes .fore3 .icon1{
+     float: left;
+     height: 26px;
+     overflow: hidden;
+     line-height: 26px;
+     width: 26px;
+     margin-right: 5px;
+     background-image: url(../image/18.8.png);
+     background-position:0px 364px;
+}
+ .bookx .side .side-inner .themes .fore3  span{
+ 	font-size: 14px;
+    margin-right: 5px;
+    float: left;
+    height: 26px;
+    overflow: hidden;
+    line-height: 26px;
+ }
+ .bookx .side .side-inner .themes .fore4 .icon1{
+     float: left;
+     height: 26px;
+     overflow: hidden;
+     line-height: 26px;
+     width: 26px;
+     margin-right: 5px;
+     background-image: url(../image/18.8.png);
+     background-position:0px 234px;
+}
+ .bookx .side .side-inner .themes .fore4  span{
+ 	font-size: 14px;
+    margin-right: 5px;
+    float: left;
+    height: 26px;
+    overflow: hidden;
+    line-height: 26px;
+ }
+
+
+  .bookx .side .side-inner .assists{
+	position: relative;
+    height: 48px;
+    width: 210px;
+    padding: 21px 0 0;
+    line-height: 24px;
+    overflow: hidden;
+    background: rgba(255,255,255,.7);
+    top:-145px;
+}
+.bookx .side .side-inner .assists li{
+	float: left;
+	width: 180px;
+	height: 24px;
+	padding-left: 25px;
+	overflow: hidden;
+}
+.bookx .side .side-inner .assists li a{
+	font-size: 14px;
+}
+
+
+.bookx .side .side-inner .words{
+	position: relative;
+	height: 76px;
+	width: 210px;
+	background: rgba(255,255,255,.7);
+	top:-490px;
+}
+.bookx .side .side-inner .words .fore1{
+    width: 165px;
+    height: 48px;
+    padding:7px 0 0 25px;
+}
+
+.bookx .main-selected{
+	width: 1000px;
+	height: 474px;
+/*	background: green;*/
+	position: relative;
+}
+.bookx .main-selected .main-inner{
+	width: 660px;
+	height: 474px;
+    position: absolute;
+    display: block;
+}
+.bookx .main-selected .main-inner .main-extra{
+	width: 220px;
+	height: 474px;
+	float: left;
+	display: block;
+}
+.bookx .main-selected .main-inner .main-extra li{
+	width: 219px;
+	height: 236px;
+    overflow: hidden;
+    font-size: 0;
+    float: left;
+    border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+}
+ 
+.bookx .main-selected .main-inner .main-body{
+	width: 440px;
+	height: 474px;
+	float: left;
+	padding-top: 237px;
+}
+.bookx .main-selected .main-inner .main-body li{
+	width: 219px;
+	height: 236px;
+    overflow: hidden;
+    float: left;
+    font-size: 0;
+    border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED; 
+}
+.bookx .main-selected .slider{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 439px;
+    height: 236px;
+    overflow: hidden;
+    left: 220px;
+    border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+}
+.bookx .main-selected .auto{
+    position: absolute;
+    left: 440px;
+    top: 0;
+    width: 340px;
+    height: 473px;
+    left: 660px;
+}
+.bookx .main-selected .auto .mst{
+	height: 34px;
+    padding-top: 13px;
+    border-right: 1px solid #EDEDED;
+}
+.bookx .main-selected .auto .mst h3{
+    margin: 0 15px 0 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 400;
+    border-bottom: 1px solid #e4e4e4;
+}
+.bookx .main-selected .auto .smc{
+    height: 426px;
+    padding-left: 15px;
+    border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+} 
+/*.smc li{
+	margin-top: 20px;
+}*/
+.smc .clstag{
+	width: 324px;
+	height: 80px;
+	padding-top: 20px; 
+	overflow: hidden;
+/* 	background: green; */
+}
+.smc .author-info{
+	float: left;
+    width: 48px;
+    height: 72px;
+    padding: 2px 15px 0 4px;
+    text-align: center;
+   /* background: #ccc;*/
+}
+.smc .author-info img{
+    vertical-align: top;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-bottom: 6px;
+}
+.smc li .author-info a{
+	    color: #666;
+}
+.smc li .author-info a:hover{
+	    color: red;
+}
+.smc .p-img{
+	float: left;
+    padding-left: 8px;
+    width: 80px;
+    height: 80px;
+    border-left: 1px dotted #dbdbdb;
+}
+.smc .p-img img{
+	width: 80px;
+	height: 80px;
+}
+.smc .clstag .p-info{
+   width: 150px;
+   height: 77px;
+   padding-left: 10px;
+   padding-right:0;
+   float: left;
+/*   background: green;*/
+ } 
+ .smc .clstag .p-info .p-name{
+ 	width: 150px;
+ 	height: 18px;
+ 	margin-bottom: 5px;
+ 	font-size: 14px;
+ }  
+.smc .clstag .p-info .p-detail{
+	width: 115px;
+	height: 34px;
+	position: relative;
+	padding:10px 15px 10px 20px;
+    overflow: visible;
+    color: #999;
+    background: #f8f8f8;
+}
+.smc .clstag .p-info .p-detail p{
+	width: 115px;
+	height: 38px;
+	overflow: hidden;
+	color:#999;
+}
+.smc .clstag .p-info .p-detail .icon-r{
+	font-size: 38px;
+    line-height: 38px;
+    color: #aaa;
+    vertical-align: -24px;
+    font-family: Arial;
+}
+.smc .clstag .p-info .p-detail .detail-arrow {
+    position: absolute;
+    left: -9px;
+    top: 19px;
+    color: #f8f8f8;
+    font-size: 20px;
+}
+.smc .clstag .p-info .p-detail  .icon-l{
+	position: absolute;
+	left: 4px;
+	width: 13px;
+	height: 38px;
+	top:7px;
+	font-size: 38px;
+	line-height: 38px;
+	color:#aaa;
+	font-family: Arial;
+}
+#author-info{
+	margin-top:10px;
+}
+/*10 book end*/
+
+
+
+
+/*11 life start*/
+.life{
+	width: 1210px;
+	height: 512px;
+ 	/*background: green; */
+	margin: 0 auto;
+	overflow: hidden;	
+}
+.lifes{
+	width: 1210px;
+	height: 36px;
+	border-bottom:1px solid #ce1623;
+	position: relative;
+	overflow: visible;
+}
+.lifes-left{
+	width: 200px;
+	height: 37px;
+	float: left;
+	font-size:20px;
+	line-height: 37px; 
+	/*background-color: green;*/
+	position: relative;
+}
+.lifes-left1{
+	padding-left:8px;
+	margin-top: 5px;
+	width: 31px;
+	height: 25px;
+    line-height:34px;
+    font-size:12px ;
+	background-image: url(../image/loucenghe.png);
+    background-position:668px 3px;
+    color:#fff;
+}
+.lifes-left2{
+   float:right;
+   position: absolute;
+   top:0;
+   left:65px;
+   font-size: 20px;
+} 
+
+
+
+.lifex{
+	width: 1210px;
+	height: 475px;
+	overflow: hidden;
+}
+.lifex .side{
+	width: 210px;
+	height: 475px;
+	float:left;
+	overflow:hidden;
+/*	background: blue;*/
+}
+
+
+.lifex .side .side-inner{
+	width: 210px;
+	height: 474px;
+	position: relative;
+	overflow: hidden;
+}
+.lifex .side .side-inner .banner{
+	position: relative;
+	height: 474px;
+	overflow: hidden;
+}
+.lifex .side .side-inner .themes{
+	position: relative;
+	padding-left: 10px;
+	width: 200px;
+	height: 92px;
+	margin-top:-237px;
+	overflow: hidden;
+	background: rgba(255,255,255,.5);
+}
+.lifex .side .side-inner .themes li{
+    float: left;
+	width:185px;
+	height: 26px;
+	padding:10px 0;
+	padding-left: 15px;
+}
+.lifex .side .side-inner .themes .fore1 .icon1{
+     float: left;
+     height: 26px;
+     overflow: hidden;
+     line-height: 26px;
+     width: 26px;
+     margin-right: 5px;
+     background-image: url(../image/21.11.png);
+     background-position:0px 0px;
+}
+ .lifex .side .side-inner .themes .fore1  span{
+ 	font-size: 14px;
+    margin-right: 5px;
+    float: left;
+    height: 26px;
+    overflow: hidden;
+    line-height: 26px;
+ }
+ .lifex .side .side-inner .themes .fore2 .icon1{
+     float: left;
+     height: 26px;
+     overflow: hidden;
+     line-height: 26px;
+     width: 26px;
+     margin-right: 5px;
+     background-image: url(../image/21.11.png);
+     background-position:0px 286px;
+}
+ .lifex .side .side-inner .themes .fore2 span{
+ 	font-size: 14px;
+    margin-right: 5px;
+    float: left;
+    height: 26px;
+    overflow: hidden;
+    line-height: 26px;
+ }
+
+
+
+.lifex .side .side-inner .themes .fore3 .icon1{
+     float: left;
+     height: 26px;
+     overflow: hidden;
+     line-height: 26px;
+     width: 26px;
+     margin-right: 5px;
+     background-image: url(../image/21.11.png);
+     background-position:0px 260px;
+}
+ .lifex .side .side-inner .themes .fore3  span{
+ 	font-size: 14px;
+    margin-right: 5px;
+    float: left;
+    height: 26px;
+    overflow: hidden;
+    line-height: 26px;
+ }
+ .lifex .side .side-inner .themes .fore4 .icon1{
+     float: left;
+     height: 26px;
+     overflow: hidden;
+     line-height: 26px;
+     width: 26px;
+     margin-right: 5px;
+     background-image: url(../image/21.11.png);
+     background-position:0px -78px;
+}
+ .lifex .side .side-inner .themes .fore4 span{
+ 	font-size: 14px;
+    margin-right: 5px;
+    float: left;
+    height: 26px;
+    overflow: hidden;
+    line-height: 26px;
+ }
+  .lifex .side .side-inner .assists{
+	position: relative;
+    height: 48px;
+    width: 210px;
+    padding: 21px 0 0;
+    line-height: 24px;
+    overflow: hidden;
+    background: rgba(255,255,255,.7);
+    top:-145px;
+}
+.lifex .side .side-inner .assists li{
+	float: left;
+	width: 180px;
+	height: 24px;
+	padding-left: 25px;
+	overflow: hidden;
+}
+.lifex .side .side-inner .assists li a{
+	font-size: 14px;
+}
+
+
+.lifex .side .side-inner .words{
+	position: relative;
+	height: 76px;
+	width: 210px;
+	background: rgba(255,255,255,.7);
+	top:-490px;
+}
+.lifex .side .side-inner .words .fore1{
+    width: 165px;
+    height: 48px;
+    padding:7px 0 0 25px;
+} 
+
+
+
+
+.lifex .main{
+	width: 394px;
+	height: 475px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+/*	background: green;*/
+}
+.lifex .main .main-slider{
+    width: 394px;
+    height: 235px;
+    border-bottom: 1px solid #f5f5f5;
+}
+.life .main .main-inner .main-body{
+	width: 394px;
+	height: 238px;
+	padding-top:236px;
+/*	background: green;*/
+	float: left;
+	overflow: hidden;
+}
+.life .main .main-inner .main-body li{
+	height: 116px;
+	float: left;
+	border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+}
+/*11 life end*/
+
+
+
+
+/*12 dijia start*/
+.dijia {
+	width: 1210px;
+	height: 319px;
+	margin : 0 auto;
+}
+.dijia-l{
+	width: 900px;
+	height: 319px;
+	float: left;
+}
+.dijia-l .mt{
+	width: 900px;
+	height: 36px;
+	float: left;
+}
+ .mt h2{
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 36px;
+}
+.dijia-l .mc{
+	width: 899px;
+	height: 281px;
+	float: left;
+	border: solid #E5E5E5;
+    border-width: 1px 0 1px 1px;
+}
+ .mc ul{
+	width: 910px;
+    overflow: hidden;
+} 
+.dijia-l .mc li{
+	padding: 18px 10px;
+    border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+    overflow: hidden;
+    width: 199px;
+    height: 104px;
+    float: left;
+}
+.mc li.fore1{
+	width: 219px;
+	height: 245px;
+}
+
+.mc .fore1 .p-img{
+	width: 219px;
+    height: 180px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+ .mc .fore1 .p-info{
+	width: 200px;
+	height: 47px;
+	float: right;
+}
+.mc .fore1 .p-info .p-name{
+ 	width: 200px;
+ 	height: 18px;
+ 	margin-bottom: 6px;
+ 	line-height: 18px;
+ 	color: #666;
+ }
+.mc li .p-info .p-price{
+  	width: 69px;
+  	height: 18px;
+  	float: left;
+  	border-bottom: 5px;
+  }
+.mc li .p-info .p-price span{
+  	display: block;
+    color: #e12228;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+.mc li .p-img{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+.mc li .p-info{
+	float: right;
+	width: 94px;
+}
+.mc  li .p-info .p-name{
+ 	width: 94px;
+ 	height: 54px;
+ 	margin-bottom: 6px;
+ 	line-height: 18px;
+ 	color: #666;
+ }
+.dijia-r{
+	width: 300px;
+	height: 319px;
+	float: left; 
+/*	background: #ccc;*/
+}
+.dijia-r .mc{
+	width: 268px;
+    height: 226px;
+    padding: 35px 20px 20px;
+    border: 1px solid #EDEDED;
+}
+.dijia-r .mc .sw{
+	position: relative;
+	height: 240px;
+	overflow: hidden;
+}
+.dijia-r .mc .sw ul{
+	width: 266px;
+	position: absolute;
+}
+.dijia-r .mc .sw li{
+	width: 266px;
+	height: 100px;
+	margin-bottom: 20px;
+}
+.dijia-r .mc .sw .p-img{
+	float: left;
+	display: inline;
+	padding: 10px 0;
+	width: 80px;
+	height: 80px;
+}
+.dijia-r .mc .sw .p-info{
+	float: left;
+	display: inline;
+	width: 166px;
+	height: 87px;
+	padding-left: 20px;
+	margin-top:3px;
+}
+.dijia-r .mc .sw .p-info .author-info{
+   width: 166px;
+   height: 28px;
+   overflow: hidden;
+   margin-bottom: 5px;
+}
+ .dijia-r .mc .sw .p-info .author-info img {
+    width: 28px;
+    height: 28px;
+    margin-right: 5px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.dijia-r .mc .sw .p-info .author-info  span{
+	line-height: 28px;
+}
+.dijia-r .mc .sw .p-info .author-info  span:hover{
+   color:#C81623;
+   cursor: pointer;
+}
+.dijia-r .mc .sw .p-info .p-detail{
+    position: relative;
+    width: 130px;
+    height: 34px;
+    padding: 10px 15px 10px 20px;
+    background: #f8f8f8;
+    color: #999;
+    overflow: visible;
+}
+.dijia-r .mc .sw .p-info.p-detail p{
+	width: 115px;
+	height: 38px;
+	overflow: hidden;
+	color:#999;
+}
+.dijia-r .mc .sw .p-info .p-detail .icon-r{
+	font-size: 38px;
+    line-height: 38px;
+    color: #aaa;
+    vertical-align: -24px;
+    font-family: Arial;
+}
+.dijia-r .mc .sw .p-info .p-detail .detail-arrow {
+    position: absolute;
+    left: -9px;
+    top: 19px;
+    color: #f8f8f8;
+    font-size: 20px;
+}
+.dijia-r .mc .sw .p-info .p-detail  .icon-l{
+	position: absolute;
+	left: 4px;
+	width: 13px;
+	height: 38px;
+	top:7px;
+	font-size: 38px;
+	line-height: 38px;
+	color:#aaa;
+	font-family: Arial;
+}
+/*12 dijia end*/
 
 
 
