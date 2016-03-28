@@ -2,6 +2,7 @@
 window.onload=function(){
 	var win=$(".banner1")[0];
 	var imgs=$("a",win);
+	console.log(imgs.length);
 	var lis=$("li",win);
 	var num=0;
 	 

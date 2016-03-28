@@ -692,6 +692,9 @@ color:#666;
 	width: 1210px;
 	height: 36px;
 /*	background-color: blue;*/
+    /*background-image:url(../image/2.1.png);  
+    background-repeat: no-repeat;
+    background-position: 0px 0px; */    
 }
 .cnxh-s h2{
 	height: 36px;
@@ -699,6 +702,17 @@ color:#666;
     font-size: 20px;
     font-weight: 400;
     float:left;
+    display: inline;
+}
+.cnsh-sz{
+	float: left;
+	width: 200px;
+	height: 20px;
+	margin-left: 30px;
+	margin-top: 10px;
+    background-image:url(../image/2.1.png);  
+    background-repeat: no-repeat;
+    background-position: 0px -101px;  
 }
 .cnxh-s a{
 	float:right;
