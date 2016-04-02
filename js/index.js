@@ -5,6 +5,8 @@ window.onload=function(){
 	console.log(imgs.length);
 	var lis=$("li",win);
 	var num=0;
+	var huadongzuo=document.getElementsByClassName("huadongzuo")[0]
+    var huadongyou=document.getElementsByClassName("huadongyou")[0]
 	 
 	// 自动轮播
 	var t=setInterval(move,1500);
@@ -41,25 +43,36 @@ window.onload=function(){
 			}
 			imgs[this.index].style.zIndex=3;
 			lis[this.index].className="tot";
-			
-
 		}
 	}
-            /*for(var i=0;i<imgs.length;i++){
-        lis[i].index=i;
-        lis[i].onclick=function(){
-            num=this.index;
-            for(var i=0;i<imgs.length;i++){
-                imgs[i].style.zIndex=0;
-                lis[i].className="";
-            }
-            imgs[this.index].style.zIndex=3;
-            lis[this.index].className="hot";
 
-        }
-    }*/
-  
-
+   huadongyou.onclick=function(){
+   	moveR();
+   }
+   function moveR(){
+   	num++;
+   	if(num=imgs.length){
+   		imgs[i].style["z-index"]=0;
+   		lis[i].style.background="gray"
+   		
+   	}else{
+   		imgs[i].style["z-index"]=5;
+   		lis[i].style.background="red"
+   	}
+   }
+huadongzuo.onclick=function(){
+   	moveL();
+function moveL(){
+	num--;
+	if(num<0){
+		num=img.length-1;
+	}
+	for(var i=0;i<imgs.length;i++){
+		img[i].style["z-index"]=0;
+		lis[i].style.background="gray";
+	}imgs[num].style["z-index"]=5;
+	lis[i].style.background="red"
+}
 }
 
-
+}

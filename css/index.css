@@ -834,13 +834,11 @@ color:#666;
 /*cainixihuan end*/
 
 
-/*pinzhishenghuo start*/
-.pzsh{
+
+/*.pzsh{
 	width: 1210px;
 	height: 443px;
-/*	background-color: #F7F7F7;*/
 	margin:0 auto;
-/*	margin-bottom: 20px;*/
 }
 .pzsh h2{
 	width: 1210px;
@@ -849,7 +847,6 @@ color:#666;
 	color: #333;
     font-size: 20px;
     font-weight: 400;
-/*    background-color: blue;*/
 }
 .pzsh-content{
 	width: 1208px;
@@ -868,7 +865,6 @@ color:#666;
 	border: 1px solid #EDEDED;
 	border-top: 0px;
 	border-left: 0px;
-/*	background-color: red;*/
 	float: left;
 	position: absolute;
 	overflow:hidden;
@@ -901,10 +897,6 @@ color:#666;
 	font-size:16px;
 	font-weight: bold;
 }
-/*.pzshtu1{
-	z-index: 1;
-	position: absolute;
-}*/
 .sub-tit .promotion{
 	color:#C81623;
 	margin-top: 6px;
@@ -917,8 +909,6 @@ color:#666;
 	border-top: 0px;
 	border-left: 0px;
 	border-bottom: 0px;
-/*	background-color: red;*/
-  
 	position: absolute;
 	top:1399px;
 	left:73px;
@@ -949,7 +939,6 @@ color:#666;
 	border-top: 0px;
 	border-left: 0px;
 	border-bottom: 0px;
-/*	background-color: red;*/
 	float: left;
 	position: absolute;
 	top:1399px;
@@ -961,7 +950,6 @@ color:#666;
 	position: absolute;
     margin-top: 10px;
 	margin-left: 10px;
-/*	left:84px;*/
 }
 .sub-tit3 .tit{
     width: 108px;
@@ -975,20 +963,19 @@ color:#666;
 	color:#C81623;
 	margin-top: 6px;
 }
-
+*/
 
 
 
 
 /*未完善*/
-.has-col2{
+/*.has-col2{
 	width: 229px;
 	height: 405px;
 	background-color: #FFFFFF;
 	float: left;
     position: relative;
 	overflow: hidden;
-	/*background-color: green;*/
 }
 .has-col2-1{
 	width: 187px;
@@ -1025,18 +1012,17 @@ color:#666;
 	width: 228px;
 	height: 158px;
 	position: absolute;
-/*	background-color: green;*/
     border-right: 1px solid #e0e0e0;
 	top:247px;
 }
+*/
 
 
 
 
 
 
-
-.has-col3{
+/*.has-col3{
 	width: 404px;
 	height: 405px;
 	background-color:#F7F7F7;
@@ -1057,10 +1043,6 @@ color:#666;
 	font-size:16px;
 	font-weight: bold;
 }
-/*.pzshtu1{
-	z-index: 1;
-	position: absolute;
-}*/
 .sub-tit4 .promotion{
 	color:#C81623;
 	margin-top: 6px;
@@ -1073,11 +1055,8 @@ color:#666;
 	border-top: 0px;
 	border-left: 0px;
 	border-bottom: 0px;
-/*	background-color: red;*/
-  
 	position: absolute;
 	top:1399px;
-/*	left:716px;*/
 }
 .sub-tit5{
 	width: 108px;
@@ -1105,7 +1084,6 @@ color:#666;
 	border-top: 0px;
 	border-left: 0px;
 	border-bottom: 0px;
-/*	background-color: red;*/
 	float: left;
 	position: absolute;
 	top:1399px;
@@ -1117,7 +1095,6 @@ color:#666;
 	position: absolute;
     margin-top: 10px;
 	margin-left: 10px;
-/*	left:84px;*/
 }
 .sub-tit6 .tit{
     width: 108px;
@@ -1137,7 +1114,6 @@ color:#666;
 	background-color:#FFFFFF;
 	float: left;
 	position: relative;
-	/*background-color: green;*/
 }
 
 
@@ -1165,11 +1141,6 @@ color:#666;
 	position:relative;
     float: right;
 }
-/*.brands-left .ul .li.a{
-	    position: absolute;
-	    overflow: hidden;
-	    border-bottom: 3px dashed #e0e0e0;
-}*/
 
 
 
@@ -1196,7 +1167,6 @@ color:#666;
 .brands-right.li{
 	width: 85px;
 	height: 57px;
-/*	border-bottom: 3px dashed #e0e0e0;*/
 	position: relative;
     float: right;
 }
@@ -1204,18 +1174,199 @@ color:#666;
 	    position: absolute;
 	    overflow: hidden;
 	    border-bottom: 3px dashed #e0e0e0;
+}*/
+
+
+
+
+
+
+
+
+
+
+/*pinzhishenghuo start*/
+.hs_content{
+	width: 1210px;
+	height: 443px;
+	margin: 0 auto 20px auto;
+}
+.hs_content h2{
+	color: #333;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 36px;
+}
+.content{
+	height:405px;
+	width: 1208px;
+	border:1px solid #EDEDED;
+}
+.content_1{
+	width: 404px;
+	height: 405px;
+	float: left;
+
+}
+.has_item{
+	display: block;
+	height: 246px;
+	width: 403px;
+	border-right: 1px solid #EDEDED;
+	border-bottom: 1px solid #EDEDED;
+	float: left;
+	background: #f7f7f7;
+	overflow: hidden;
+	position: relative;
+}
+
+.has_item_small{
+	display: block;
+	width: 201px;
+	height: 158px;
+	border-right:  1px solid #EDEDED;
+	float: left;
+	position: relative;
+}
+.content_2{
+	width: 229px;
+	height: 405px;
+	float: left;
+}
+.has_item_small1{
+	width: 228px;
+	height: 246px;
+	border-right: 1px solid #EDEDED;
+	border-bottom: 1px solid #EDEDED;
+	display: block;
+	float: left;
+	position: relative;
+	font-size: 0;
+}
+.has_item_small2{
+	width: 228px;
+	height: 158px;
+	border-right: 1px solid #EDEDED;
+	display: block;
+	float: left;
+	position: relative;
+	font-size: 0;
+
+}
+.hs_brands{
+	width: 171px;
+	height: 405px;
+	float: left;
+}
+.brands_left{
+	width: 85px;
+	height: 381px;
+	float: left;
+	margin-top: 13px;
+	border-right: 1px dashed #EDEDED;
+}
+.brands_rifht{
+	width: 85px;
+	height: 381px;
+	float: left;
+	margin-top: 13px;
+}
+.area_tit{
+	font: 700 15px/40px "微软雅黑";
+	color: #333;
+	text-align: center;
+	margin: 0 20px;
+	border-bottom: 1px dashed #E0E0E0;
+}
+.sub_tit{
+	position: absolute;
+    left:45px;
+    top: 109px;
+}
+.tit{
+	font-weight: 700;
+	font-size: 16px;
+	margin-bottom: 12px;
+	color: #333;
+}
+.desc{
+	color: #333;
+	margin-bottom: 4px;
+
+}
+.promotion{
+	color:#C81623;
+}
+.sub_tit1{
+	position: absolute;
+    left:10px;
+    top: 48px;
+}
+.sub_tit2{
+	position: absolute;
+    left:10px;
+    top: 109px;
+}
+.brands_left ul{
+	margin-top: -13px;
+}
+.brands_left li{
+	border-bottom: 1px dashed #E0E0E0;
+	width: 74px;
+    float: right;
+}
+.brands_left a{
+	display: block;
+	height: 57px;
+}
+.brands_left img{
+	float: right;
+}
+.brands_right ul{
+	margin-top: 0px;
+}
+.brands_right li{
+	border-bottom: 1px dashed #E0E0E0;
+	width: 74px;
+    float: left;
+}
+.brands_right a{
+	display: block;
+	height: 57px;
+}
+.brands_right img{
+	float: left;
+}
+.brands_left{
+	width: 85px;
+	height: 381px;
+	float: left;
+
+}
+.brands_right {
+	width: 85px;
+	height: 381px;
+	float: left;
+}
+.floor-banner-1{
+	width: 1210px;
+	height: 110px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+
+}
+.floor-banner-1 img{
+	float: left;
 }
 /*pinzhishenghuo end*/
 
 
 
-
-/*pinzhishenghuox start*/
+/*pinzhishenghuos end*/
 .pzshx{
 	width: 1209px;
 	height: 125px;
 	margin: 0 auto;
-/*	background-color: green;*/
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
@@ -1224,7 +1375,6 @@ color:#666;
   margin: 0 auto;
 }
 /*pinzhishenghuox end*/
-
 
 
 
